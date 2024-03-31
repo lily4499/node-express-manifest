@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'laly9999/amazon'
+    env.IMAGE = 'laly9999/node-express-app'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/lily4499/node-express-manifest.git'  
