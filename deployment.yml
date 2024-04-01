@@ -48,7 +48,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: node-container
-        image: laly9999/node-express-app:4
+        image: laly9999/node-express-app:5
         ports:
         - containerPort: 3000
         
