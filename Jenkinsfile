@@ -1,5 +1,9 @@
 node {
     def app
+
+    parameters {
+        string(name: 'IMAGE_TAG', defaultValue: "${env.BUILD_NUMBER}", description: 'Tag for the Docker image')
+    }
     
     env.IMAGE = 'laly9999/coming-soon-website'
 
