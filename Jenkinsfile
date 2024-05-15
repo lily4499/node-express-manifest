@@ -5,7 +5,7 @@ node {
         string(name: 'IMAGE_TAG',  description: 'Tag for the Docker image')
     }
     
-    env.IMAGE = 'laly9999/coming-soon-website'
+    env.IMAGE = 'laly9999/argo-app'
     env.IMAGE_TAG = "${env.BUILD_NUMBER}" 
     
     stage('Clone repository') {
