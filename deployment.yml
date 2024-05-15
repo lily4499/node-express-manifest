@@ -48,7 +48,7 @@ spec:
     spec: # Pod spec
       containers:
       - name: node-container
-        image: laly9999/argo-app
+        image: laly9999/argo-app:1
         ports:
         - containerPort: 3000
         
